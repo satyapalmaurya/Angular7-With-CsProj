@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2040EFDC-EAAB-4C98-94F1-4A15D040D90D}</ProjectGuid>
+    <ProjectGuid>{27B026F8-E17C-450E-BA23-785A9A3870A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Angular7_With_CsProj</RootNamespace>
-    <AssemblyName>Angular7-With-CsProj</AssemblyName>
+    <RootNamespace>NgTemplateProj</RootNamespace>
+    <AssemblyName>NgTemplateProj</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,16 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include=".gitignore" />
-    <Content Include="e2e\protractor.conf.js" />
-    <Content Include="NgTemplateProj.csproj" />
-    <Content Include="NgTemplateProj.csproj.user" />
-    <Content Include="src\app\app.component.html" />
-    <Content Include="src\favicon.ico" />
-    <Content Include="src\index.html" />
-    <Content Include="src\karma.conf.js" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include=".editorconfig" />
     <None Include="angular.json" />
     <None Include="e2e\tsconfig.e2e.json" />
@@ -58,6 +48,14 @@
     <None Include="src\tslint.json" />
     <None Include="tsconfig.json" />
     <None Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="e2e\protractor.conf.js" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\karma.conf.js" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="e2e\src\app.e2e-spec.ts" />
